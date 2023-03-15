@@ -1,7 +1,7 @@
-#Flask Todo App
+# Flask Todo App
 Este es un proyecto de ejemplo en Flask que muestra cómo construir una aplicación simple de lista de tareas.
 
-##Uso
+## Uso
 La aplicación utiliza Flask y SQLAlchemy para manejar una base de datos SQLite y realizar operaciones CRUD en una lista de tareas. Para ejecutar la aplicación, siga estos pasos:
 
 1. Asegúrese de tener Python 3.10.6.
@@ -12,19 +12,19 @@ La aplicación utiliza Flask y SQLAlchemy para manejar una base de datos SQLite 
 6. Ejecute python app.py para iniciar la aplicación.
 7. Abra un navegador web y navegue a http://localhost:5000.
 
-##Estructura del proyecto
+## Estructura del proyecto
 - *app.py*: el archivo principal que contiene la configuración de la aplicación y las rutas de Flask.
 - *base.html*: la plantilla HTML base para la aplicación.
 - *requirements.txt*: archivo de texto que contiene las dependencias del proyecto.
 
-##Modelos
+## Modelos
 La aplicación utiliza un modelo *Todo* que representa una tarea en la lista de tareas. El modelo se define en el archivo *app.py* utilizando SQLAlchemy y contiene las siguientes propiedades:
 
 * *id*: identificador único de la tarea.
 * *title*: título de la tarea.
 * *complete*: bandera booleana que indica si la tarea está completa o no.
 
-##Rutas
+## Rutas
 La aplicación define las siguientes rutas de Flask:
 
 * */*: la ruta principal que muestra la lista de tareas.
